@@ -33,3 +33,7 @@ python decrypt.py --input "path/to/output_file.txt" --key "your_key"
 
 Make sure to replace "your_key" with the actual key and provide the correct file paths. Use double quotes (" ") around the message and key if they contain spaces or specfial characters.
 
+## Configuration
+No additional configuration is required. You can customize the encryption algorithm and key length in the code if needed.
+
+this project was work on by me and the help of a software engineeer 
