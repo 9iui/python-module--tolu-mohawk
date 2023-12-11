@@ -21,12 +21,14 @@ pip install cryptography
 
 ## Encryption
 Encrypt a message and write it to a file.
-```python encrypt.py --message "your message here" --key "your_key" --output "path/to/output_file.txt"
+```
+python encrypt.py --message "your message here" --key "your_key" --output "path/to/output_file.txt"
 ```
 
 ## Decryption
 Decrypt a message from a file using a key.
-```python decrypt.py --input "path/to/output_file.txt" --key "your_key"
+```
+python decrypt.py --input "path/to/output_file.txt" --key "your_key"
 ```
 
 Make sure to replace "your_key" with the actual key and provide the correct file paths. Use double quotes (" ") around the message and key if they contain spaces or specfial characters.
